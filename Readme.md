@@ -76,7 +76,7 @@ Here are a few snapshots of what this project looks like in action. This is wher
 
 Ready to dive in? Here’s a quick guide to what’s where:
 
-* **/Your_Project_Folder_Name/**: This is where the magic happens! All the Swift code and app logic lives here.
+* **/MAARG/**: This is where the magic happens! All the Swift code and app logic lives here.
 * **`TrailAnalyzerModel.mlmodel`**: The little brain of my operation. You can even click on it in Xcode to see details about the model.
 * **`.gitignore`**: The guardian file that keeps the repository clean.
 * **`README.md`**: You're reading it right now! 😊
