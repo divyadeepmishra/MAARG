@@ -49,8 +49,6 @@ For all data persistence, I chose this newest framework, **SwiftData**. It serve
 
 Here are a few snapshots of what this project looks like in action. This is where the code meets the real world!
 
-*(**How to use this:** Create an `assets` folder in your project, put your images there, and then replace the `path/to/your/image.png` placeholders below with the correct paths, like `assets/screenshot1.png`)*
-
 <table align="center">
  <tr>
   <td align="center"><strong>AI-Powered Difficulty Prediction</strong></td>
