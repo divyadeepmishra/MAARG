@@ -24,7 +24,7 @@ class HealthManager: ObservableObject{
         ]
         
         // The function that triggers the permission pop-up for the user.
-        healthStore.requestAuthorization(toShare: nil, read: typesToWrite){ (success, error) in
+        healthStore.requestAuthorization(toShare: typesToWrite, read: nil){ (success, error) in
             if !success {
                 // Handle the error here.
                 print("Error requesting HealthKit authorization: \(error?.localizedDescription ?? "Unknown error")")

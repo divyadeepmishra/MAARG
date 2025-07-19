@@ -51,7 +51,7 @@ struct HikeDetailView: View {
                             
                             StatView(icon: "timer", label: "Duration", value: formatDuration(hike.duration))
                             
-                            StatView(icon: "map.fill", label: "Distance", value: String(format: "%.2f km", hike.distance / 1000))
+                            StatView(icon: "map.fill", label: "Distance", value: String(format: "%.2f km", hike.distance))
                             
                             StatView(icon: "arrow.up.to.line.compact", label: "Elevation Gain", value: String(format: "%.0f m", hike.elevationGain))
                             
@@ -87,6 +87,8 @@ struct HikeDetailView: View {
             return .orange
         case "High Risk":
             return .red
+        case "Analysis Failed":
+            return .gray
         default:
             return .primary // Default color for "Calculating..." or errors
         }

@@ -22,14 +22,17 @@ struct PredictionService {
             let prediction = try model.prediction(input: modelInput).risk
             
             switch prediction {
-            case 0..<20:
+            case -5..<20:
                 return "Easy"
             case 20..<50:
                 return "Moderate"
             case 50..<100:
                 return "Difficult"
-            default:
+            case 100..<600:
                 return "High Risk"
+            default:
+                // This case handles a score any unexpected value.
+                return "Analysis Failed"
             }
             
         } catch {
@@ -38,3 +41,10 @@ struct PredictionService {
         }
     }
 }
+
+
+
+
+
+
+

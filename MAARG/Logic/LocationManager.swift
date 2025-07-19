@@ -55,6 +55,8 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
         let duration = endTime.timeIntervalSince(startTime)
         let distance = calculateTotalDistance()
         
+        print("DEBUG: Hike stopped. Final calculated distance is \(distance) km.")   // Line for debugging
+        
         let newHike = HikeRecord(
             date: endTime,
             distance: distance,
@@ -73,7 +75,7 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
         return newHike
     }
     // This is a helper function to calculate the total distance of the route.
-    private func calculateTotalDistance() -> Double { // <<< ADD THIS HELPER
+    private func calculateTotalDistance() -> Double {
         var totalDistance: Double = 0
         guard route.count > 1 else { return 0 }
         
@@ -82,22 +84,28 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
             let end = route[i+1]
             totalDistance += start.distance(from: end)
         }
-        return totalDistance
+        return totalDistance / 1000.0
     }
     
     // This is a new, required delegate method. It's called whenever the location updates.
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        print("DEBUG: Location update received.") // Line for debugging
+        
         guard let newLocation = locations.last else { return }
         self.userLocation = newLocation         // take the latest location from the array and update our property.
         if isTracking {
             // Elevation Logic
             if let lastLocation = route.last {
-                let altitudeChange = newLocation.altitude - lastLocation.altitude
-                if altitudeChange > 0 { // Only add positive changes
-                    totalElevationGain += altitudeChange
+                if newLocation.verticalAccuracy < 10.0 {
+                    let altitudeChange = newLocation.altitude - lastLocation.altitude
+                    if altitudeChange > 0 { // Only add positive changes
+                        totalElevationGain += altitudeChange
+                    }
                 }
             }
             route.append(newLocation)         // Only add the location to our route if the "switch" is on
+           
+            print("DEBUG: Hike is active. Route now has \(route.count) points.") // Line for debugging
         }
     }
     

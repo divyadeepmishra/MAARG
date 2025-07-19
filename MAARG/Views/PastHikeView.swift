@@ -19,7 +19,7 @@ struct PastHikesView: View {
                             
                             HStack {
                                 // Show distance in kilometers.
-                                Text(String(format: "%.2f km", hike.distance / 1000))
+                                Text(String(format: "%.2f km", hike.distance))
                                     .font(.subheadline)
                                     .foregroundColor(.green)
                                 
