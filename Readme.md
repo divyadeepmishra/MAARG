@@ -49,6 +49,10 @@ For all data persistence, I chose this newest framework, **SwiftData**. It serve
 
 Here are a few snapshots of what this project looks like in action. This is where the code meets the real world!
 
+*[Click to watch the full MAARG app demonstration on YouTube.](https://youtube.com/shorts/cUqQEj2Knwo)*
+
+<br>
+
 <table align="center">
  <tr>
   <td align="center"><strong>AI-Powered Difficulty Prediction</strong></td>
