@@ -62,7 +62,7 @@ Here are a few snapshots of what this project looks like in action. This is wher
  </tr>
  <tr>
   <td align="center"><strong>Interactive Map View</strong></td>
-  <td align="center"><strong>Saving Hike</strong></td>
+  <td align="center"><strong>Aditional View</strong></td>
  </tr>
   <tr>
   <td><img src="https://github.com/divyadeepmishra/MAARG/blob/main/assets/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-07-19%20at%2010.32.07.png" alt="A beautiful photo of a trail that the app might analyze." width="350"></td>
