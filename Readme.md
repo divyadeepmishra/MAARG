@@ -57,16 +57,16 @@ Here are a few snapshots of what this project looks like in action. This is wher
   <td align="center"><strong>HealthKit Stats</strong></td>
  </tr>
  <tr>
-  <td><img src="path/to/your/image1.png" alt="A screenshot showing the main user interface of the app." width="350"></td>
-  <td><img src="path/to/your/image2.png" alt="A screenshot showing the machine learning model identifying a feature on a trail." width="350"></td>
+  <td><img src="https://github.com/divyadeepmishra/MAARG/blob/main/assets/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-07-19%20at%2010.32.35.png" alt="A screenshot showing the main user interface of the app." width="350"></td>
+  <td><img src="https://github.com/divyadeepmishra/MAARG/blob/main/assets/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-07-19%20at%2010.14.31.png" alt="A screenshot showing the machine learning model identifying a feature on a trail." width="350"></td>
  </tr>
  <tr>
   <td align="center"><strong>Trail Difficulty Prediction</strong></td>
   <td align="center"><strong>Activity History</strong></td>
  </tr>
   <tr>
-  <td><img src="path/to/your/image3.png" alt="A beautiful photo of a trail that the app might analyze." width="350"></td>
-  <td><img src="path/to/your/image4.png" alt="A screenshot of another feature within the app." width="350"></td>
+  <td><img src="https://github.com/divyadeepmishra/MAARG/blob/main/assets/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-07-19%20at%2010.32.07.png" alt="A beautiful photo of a trail that the app might analyze." width="350"></td>
+  <td><img src="https://github.com/divyadeepmishra/MAARG/blob/main/assets/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-07-19%20at%2010.32.19.png" alt="A screenshot of another feature within the app." width="350"></td>
  </tr>
 </table>
 
