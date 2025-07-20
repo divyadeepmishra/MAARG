@@ -49,9 +49,6 @@ For all data persistence, I chose this newest framework, **SwiftData**. It serve
 
 Here are a few snapshots of what this project looks like in action. This is where the code meets the real world!
 
-*[Click to watch the full MAARG app demonstration on YouTube.](https://youtube.com/shorts/cUqQEj2Knwo)*
-
-<br>
 
 <table align="center">
  <tr>
@@ -71,6 +68,8 @@ Here are a few snapshots of what this project looks like in action. This is wher
   <td><img src="https://github.com/divyadeepmishra/MAARG/blob/main/assets/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-07-19%20at%2010.32.19.png" alt="A screenshot of another feature within the app." width="350"></td>
  </tr>
 </table>
+
+  *[Click to watch the full MAARG app demonstration on YouTube.](https://youtube.com/shorts/cUqQEj2Knwo)*
 
 ***
 
