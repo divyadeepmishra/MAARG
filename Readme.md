@@ -69,7 +69,7 @@ Here are a few snapshots of what this project looks like in action. This is wher
  </tr>
 </table>
 
-  *[Click here to watch the full MAARG app demonstration on YouTube.](https://youtube.com/shorts/cUqQEj2Knwo)*
+  *[Click here to watch the full MAARG app demonstration.](https://youtube.com/shorts/cUqQEj2Knwo)*
 
 ***
 
